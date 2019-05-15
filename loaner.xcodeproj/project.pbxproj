@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		448856882239D544001EDDC4 /* Loanee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448856872239D544001EDDC4 /* Loanee.swift */; };
+		5DE98AAF22737D3D0033FD91 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE98AAD22737D3D0033FD91 /* Item+CoreDataClass.swift */; };
+		5DE98AB022737D3D0033FD91 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE98AAE22737D3D0033FD91 /* Item+CoreDataProperties.swift */; };
+		5DE98AB2227398C60033FD91 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE98AB1227398C60033FD91 /* ItemStore.swift */; };
+		5DEF896F22727FA500E3BF26 /* LoanedItems.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF896D22727FA500E3BF26 /* LoanedItems.xcdatamodeld */; };
 		E929E9692124EB7E0018488C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E929E9682124EB7E0018488C /* AppDelegate.swift */; };
 		E929E96B2124EB7E0018488C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E929E96A2124EB7E0018488C /* ViewController.swift */; };
 		E929E96E2124EB7E0018488C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E929E96C2124EB7E0018488C /* Main.storyboard */; };
@@ -15,16 +19,18 @@
 		E929E9732124EB810018488C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E929E9712124EB810018488C /* LaunchScreen.storyboard */; };
 		E969554E21277C3100457E12 /* ItemEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E969554D21277C3100457E12 /* ItemEditorViewController.swift */; };
 		E96F11EA2128BCCA004D549A /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96F11E92128BCCA004D549A /* ItemCollectionViewCell.swift */; };
-		E9BA28F321274FED004FA7D3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BA28F221274FED004FA7D3 /* Item.swift */; };
 		E9BA28F521275B1A004FA7D3 /* ItemDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BA28F421275B1A004FA7D3 /* ItemDetailedViewController.swift */; };
 		E9D24DEF212789B90045C5D8 /* UIImage+ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D24DEE212789B90045C5D8 /* UIImage+ImagePickerController.swift */; };
 		E9D24DF121278BCD0045C5D8 /* ItemNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D24DF021278BCD0045C5D8 /* ItemNotesViewController.swift */; };
 		E9D24DF3212794E30045C5D8 /* ItemContactInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D24DF2212794E30045C5D8 /* ItemContactInfoViewController.swift */; };
-		F3A2E0DA228B85B8009DED62 /* LoanedItems.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3A2E0D8228B85B8009DED62 /* LoanedItems.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		448856872239D544001EDDC4 /* Loanee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loanee.swift; sourceTree = "<group>"; };
+		5DE98AAD22737D3D0033FD91 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5DE98AAE22737D3D0033FD91 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5DE98AB1227398C60033FD91 /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
+		5DEF896E22727FA500E3BF26 /* LoanedItems.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoanedItems.xcdatamodel; sourceTree = "<group>"; };
 		E929E9652124EB7E0018488C /* loaner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loaner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E929E9682124EB7E0018488C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E929E96A2124EB7E0018488C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,12 +40,10 @@
 		E929E9742124EB810018488C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E969554D21277C3100457E12 /* ItemEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemEditorViewController.swift; sourceTree = "<group>"; };
 		E96F11E92128BCCA004D549A /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
-		E9BA28F221274FED004FA7D3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		E9BA28F421275B1A004FA7D3 /* ItemDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailedViewController.swift; sourceTree = "<group>"; };
 		E9D24DEE212789B90045C5D8 /* UIImage+ImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+ImagePickerController.swift"; sourceTree = "<group>"; };
 		E9D24DF021278BCD0045C5D8 /* ItemNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemNotesViewController.swift; sourceTree = "<group>"; };
 		E9D24DF2212794E30045C5D8 /* ItemContactInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemContactInfoViewController.swift; sourceTree = "<group>"; };
-		F3A2E0D9228B85B8009DED62 /* LoanedItems.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoanedItems.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +81,10 @@
 		44C7B628222722A100A8A0CF /* model */ = {
 			isa = PBXGroup;
 			children = (
-				E9BA28F221274FED004FA7D3 /* Item.swift */,
-				F3A2E0D8228B85B8009DED62 /* LoanedItems.xcdatamodeld */,
+				5DE98AAD22737D3D0033FD91 /* Item+CoreDataClass.swift */,
+				5DE98AAE22737D3D0033FD91 /* Item+CoreDataProperties.swift */,
+				5DEF896D22727FA500E3BF26 /* LoanedItems.xcdatamodeld */,
+				5DE98AB1227398C60033FD91 /* ItemStore.swift */,
 				448856872239D544001EDDC4 /* Loanee.swift */,
 			);
 			path = model;
@@ -189,12 +195,14 @@
 			files = (
 				E9D24DF121278BCD0045C5D8 /* ItemNotesViewController.swift in Sources */,
 				E929E96B2124EB7E0018488C /* ViewController.swift in Sources */,
-				E9BA28F321274FED004FA7D3 /* Item.swift in Sources */,
 				E96F11EA2128BCCA004D549A /* ItemCollectionViewCell.swift in Sources */,
 				E9BA28F521275B1A004FA7D3 /* ItemDetailedViewController.swift in Sources */,
 				E9D24DF3212794E30045C5D8 /* ItemContactInfoViewController.swift in Sources */,
+				5DE98AAF22737D3D0033FD91 /* Item+CoreDataClass.swift in Sources */,
+				5DE98AB022737D3D0033FD91 /* Item+CoreDataProperties.swift in Sources */,
 				E9D24DEF212789B90045C5D8 /* UIImage+ImagePickerController.swift in Sources */,
-				F3A2E0DA228B85B8009DED62 /* LoanedItems.xcdatamodeld in Sources */,
+				5DEF896F22727FA500E3BF26 /* LoanedItems.xcdatamodeld in Sources */,
+				5DE98AB2227398C60033FD91 /* ItemStore.swift in Sources */,
 				E929E9692124EB7E0018488C /* AppDelegate.swift in Sources */,
 				E969554E21277C3100457E12 /* ItemEditorViewController.swift in Sources */,
 				448856882239D544001EDDC4 /* Loanee.swift in Sources */,
@@ -342,7 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8U3L6K9JA6;
+				DEVELOPMENT_TEAM = SAZ2DLKCVY;
 				INFOPLIST_FILE = loaner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -360,7 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8U3L6K9JA6;
+				DEVELOPMENT_TEAM = SAZ2DLKCVY;
 				INFOPLIST_FILE = loaner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -397,14 +405,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		F3A2E0D8228B85B8009DED62 /* LoanedItems.xcdatamodeld */ = {
+		5DEF896D22727FA500E3BF26 /* LoanedItems.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				F3A2E0D9228B85B8009DED62 /* LoanedItems.xcdatamodel */,
+				5DEF896E22727FA500E3BF26 /* LoanedItems.xcdatamodel */,
 			);
-			currentVersion = F3A2E0D9228B85B8009DED62 /* LoanedItems.xcdatamodel */;
-			name = LoanedItems.xcdatamodeld;
-			path = "../../../../../../Downloads/Core_Data_Practice-master/loaner/model/LoanedItems.xcdatamodeld";
+			currentVersion = 5DEF896E22727FA500E3BF26 /* LoanedItems.xcdatamodel */;
+			path = LoanedItems.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
